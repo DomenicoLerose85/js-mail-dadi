@@ -2,7 +2,79 @@ button{
     text-align: center;
     background-color: red;
     line-height: 30px;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 500px;
     border-radius: 25px;
+}
+
+
+/* dadi excercise */
+
+#mainBox{
+    margin-top: 30px;
+    background-color:rgb(54, 74, 112);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 400px;
+    width: 500px;
+}
+#mainBox .number{
+    color: white;
+    background-color:rgb(23, 50, 170);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.button_Div{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    height: 100px;
+    width: 500px;
+}
+
+#random_Numbers{
+    width: 50%;
+    text-align: center;
+    padding-bottom: 7px;
+    margin-bottom: 55px;
+    margin-right: 500px;
+    
+}
+
+span{
+    text-align: center;
+    font-weight: bolder; 
+}
+
+#message{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    height: 100px;
+    width: 500px;
+}
+#player_Number{
+    font-size: 40px;
+}
+
+#computer_Number h2{
+    color: midnightblue;
+    font-weight: bold;
+    padding-bottom: 110px;
+    font-size: 30px;
+}
+
+#winner{
+    text-align: center;
+    color: white;
+    line-height: 80px;
+    height: 80px;
+    width: 100%;
+    font-size: 30px;
+    background-color: black;
 }

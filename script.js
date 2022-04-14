@@ -38,6 +38,25 @@ if(rightEmail){
 // /email excercise
 
 // dadi excercise
+rndmBtn.addEventListener("click", function(){
+    const playerRandomNumber = Math.floor(Math.random()* 6) + 1;
+    const computerRandomNumber = Math.floor(Math.random()* 6) + 1;
+});
+
+const playerNumber = document.getElementById("playerNumber");
+const pcNumber = document.getElementById("computerNumber");
+const winner = document.getElementById("winner");
+
+pNumber.append(playerRandomNumber);
+cNumber.append(computerRandomNumber);
+
+if(playerRandomNumber > computerRandomNumber){
+    winner.append("You won!");
+} else {(computerRandomNumber > playerRandomNumber)  
+    winner.append("The computer won!");
+};
+
+
 
 
 
